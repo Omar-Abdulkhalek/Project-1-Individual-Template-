@@ -1,0 +1,27 @@
+/* adapte template for all screens */
+
+/* for extra small screens */
+@media all and (max-width: 576px){
+  
+    html{
+        font-size: 13px;
+    }
+}
+
+/* for small screens */
+@media all and (min-width: 577px) and (max-width: 768px){
+    
+
+    html{
+        font-size: 14px;
+    }
+}
+
+
+
+/* for medium screens */
+@media all and (min-width: 769px) and (max-width: 992px){
+    html{
+        font-size: 14px;
+    }
+}

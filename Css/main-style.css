@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* body styling */
+
+
+body{
+    /* height: 4000px; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section styling */
+header{
+    background-image: url(../Img/bg-img-01.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header .headerCaption h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px #000000;
+    color:#EBE9EB;
+}
+
+header .headerCaption p
+{
+    color: #fff;
+    font-size: 1.18rem;
+    font-weight: 300;
+}
