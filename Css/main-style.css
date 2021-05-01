@@ -31,6 +31,23 @@ header .headerCaption p
     font-weight: 300;
 }
 
+/* Start Of Second Section */
+
+#_2nd-section{
+    background-image: url(../Img/bg-img-02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+#_2nd-section .item{background-color: rgba(255, 255, 255, .8);max-width: 335px;padding: 40px 35px;}
+#_2nd-section .item a{width: 100%;font-size: 22px;background-color: #C66666;}
+#_2nd-section .item a:hover{background-color: #dc3545;}
+#_2nd-section .item p{line-height: 28px;font-weight: 400;font-size: 22px;}
+#_2nd-section .item h2{font-size: 34px;margin-bottom: 15px;}
+
+/* End Of Second Section */
+
 
 /* Start Of Section Four */
 .sec-four
