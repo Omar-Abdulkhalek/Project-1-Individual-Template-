@@ -1,16 +1,17 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+
 /* body styling */
 
 
-body{
+body {
     /* height: 4000px; */
     font-family: 'Open Sans', sans-serif;
 }
 
 /* header section styling */
-header{
+header {
     background-image: url(../Img/bg-img-01.jpg);
     background-position: center center;
     background-size: cover;
@@ -21,11 +22,10 @@ header{
 header .headerCaption h1 {
     font-size: 4rem;
     text-shadow: 2px 2px 8px #000000;
-    color:#EBE9EB;
+    color: #EBE9EB;
 }
 
-header .headerCaption p
-{
+header .headerCaption p {
     color: #fff;
     font-size: 1.18rem;
     font-weight: 300;
@@ -33,21 +33,38 @@ header .headerCaption p
 
 
 /* Start Of Section three */
-.sec-three
-{
+.sec-three {
     background-image: url(../Img/bg-img-05.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     min-height: 100vh;
 }
-.sec-three .caption
-{
+
+.sec-three .caption {
     background-color: #ffffffc4;
 }
-.sec-three .caption p
-{
-   font-size: 1.5rem;
-   font-weight: 300;
+
+.sec-three .caption p {
+    font-size: 1.5rem;
+    font-weight: 300;
 }
+
 /* End Of Section three */
+
+/* Start Of Section Four */
+#sec-four{
+    background-image: url(../Img/bg-img-04.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#sec-four ol.carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+/* End Of Section Four */
