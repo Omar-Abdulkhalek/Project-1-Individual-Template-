@@ -68,3 +68,51 @@ header .headerCaption p {
 }
 
 /* End Of Section Four */
+
+/* Start Of Section Five */
+
+.sec-five
+{
+background-image: url('../img/bg-img-06.jpg');
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+min-height: 100vh;
+}
+.sec-five .form-control {
+    color: #495057;
+    opacity: 0.7;
+}
+.sec-five .form-group{
+    margin-top: -15px;
+}
+.sec-five .section-title {
+    margin-left: 250px;
+    margin-top: 200px;
+}
+.sec-five a {
+    color: #fff;
+}
+.sec-five a:hover {
+    color:darkorange;
+}
+
+.sec-five .caption {
+    color: #fff;
+    font-size: 20px;
+}
+.sec-five .btn {
+    width: 150px;
+    height: 50px;
+    background-color: #C66666;
+    border-color: #C66666;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.sec-five h2 {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+/* End Of Section Five */
