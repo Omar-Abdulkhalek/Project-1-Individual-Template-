@@ -32,22 +32,22 @@ header .headerCaption p
 }
 
 
-/* Start Of Section Four */
-.sec-four
+/* Start Of Section three */
+.sec-three
 {
-    background-image: url(../Img/bg-img-04.jpg);
+    background-image: url(../Img/bg-img-05.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     min-height: 100vh;
 }
-.sec-four .caption
+.sec-three .caption
 {
     background-color: #ffffffc4;
 }
-.sec-four .caption p
+.sec-three .caption p
 {
    font-size: 1.5rem;
    font-weight: 300;
 }
-/* End Of Section Four */
+/* End Of Section three */
