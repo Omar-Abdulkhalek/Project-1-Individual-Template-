@@ -30,3 +30,24 @@ header .headerCaption p
     font-size: 1.18rem;
     font-weight: 300;
 }
+
+
+/* Start Of Section Four */
+.sec-four
+{
+    background-image: url(../Img/bg-img-04.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.sec-four .caption
+{
+    background-color: #ffffffc4;
+}
+.sec-four .caption p
+{
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+/* End Of Section Four */
